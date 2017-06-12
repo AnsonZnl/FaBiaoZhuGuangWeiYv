@@ -1,0 +1,160 @@
+//header
+header {
+  .header-top {
+    background: #3884c0;
+    p {
+      color: #fff;
+      margin-bottom: 0;
+      font-size: 15px;
+      line-height: 43px;
+    }
+    form {
+      .form-group {
+        position: relative;
+        i {
+          position: absolute;
+          top: 10px;
+          right: 6px;
+          color: #05aec7;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .navbar{
+    margin-bottom: 0;
+  }
+  nav {
+    .nav {
+      li {
+        a {
+          color: #000;
+          &:hover {
+            background: #fff;
+            border-bottom: solid #05aec7 2px;
+          }
+        }
+      }
+      .active {
+        border-bottom: solid #05aec7 2px;
+      }
+    }
+    .logo {
+      width: 153px;
+      height: 50px;
+    }
+  }
+}
+//banner
+.banner{
+  div{
+    img{
+      margin:auto;
+      width: 100%;
+      display: block;
+    }
+  }
+}
+//profuile公司介绍
+.profuile{
+  padding-bottom: 80px;
+  padding-top: 60px;
+  h2{
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #71716f;
+  }
+  img{
+
+  }
+  h6{
+    border-bottom:solid 3px #3884c0;
+    width: 50px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+  p{
+    font-size: 13px;
+    margin-bottom: 0;
+    line-height: 2em;
+    color: #4c4944;
+    a{
+      padding: 10px 60px;
+      border-radius: 3px;
+      color: #fff;
+      font-size: 14px;
+      display: inline-block;
+      background: #2c2f34;
+      margin-top: 40px;
+      &:hover{
+        text-decoration: none;
+        background: #000;
+      }
+    }
+  }
+}
+//products产品展示
+.products{
+  background: #2c2f34;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  h2{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  ul{
+    text-align: center;
+    border-bottom:solid 2px #26292e;
+    margin-bottom: 60px;
+    li{
+      float: none;
+      display: inline-block;
+      a{
+        padding:10px 30px;
+        color: #8a97a8;
+
+      }
+    }
+  }
+  #myTabContent{
+    div{
+      a{
+        color: #88808f;
+        &:hover{
+          text-decoration:none;
+          color: #ccc;
+        }
+        img{
+          width:260px;
+          height: 237px;
+        }
+        p{
+          margin-bottom: 0px;
+          margin-top: 4px;
+        }
+        .products-pmbb{
+          border-bottom: solid #3f494b 1px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  div p a{
+    border: solid #3f494b 1px;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  display: inline-block;
+    color: #88808f;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 14px;
+    &:hover{
+      border: solid #7d7976 1px;
+      color: #ccc;
+    }
+  }
+}

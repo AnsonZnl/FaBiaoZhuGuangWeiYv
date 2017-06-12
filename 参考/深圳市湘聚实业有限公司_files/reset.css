@@ -1,0 +1,34 @@
+*{margin:0;padding:0;list-style-type:none;}
+body{font: normal 100% "Microsoft YaHei";overflow-x:hidden; min-height:1008px;}
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,table,tbody,thead,tfoot,tr,td,th,input {margin: 0; padding: 0; font-family:"Microsoft YaHei";}
+h1,h2,h3,h4,h5,h6,em,h6,b,p{font-weight: normal; font-style: normal;}
+img{vertical-align:bottom; border:none;}
+a{text-decoration: none;color:#666;font-family:"Microsoft YaHei";font-size:12px;}
+ul,li{list-style:none outside none;}
+li,p,a{vertical-align:bottom;}
+.clear{ clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size:1px; }
+.clearFix { zoom:1; }
+.clearFix:after { content:'.'; display:block; height:0; clear:both; visibility:hidden;}
+table{border-collapse:collapse;}
+::selection{background:#05aec7; color: white; /* Safari */} 
+::-moz-selection{background:#05aec7; color: white; /* Firefox */ } /*鼠标滑过变色*/
+body{font-size: 14px;font-family::"Microsoft YaHei";margin: 0 auto;}
+.opacity{background:#000;opacity:0.5;filter: alpha(opacity=50);}/*背景色半透明*/
+
+/*禁用表单input、select元素的默认外观*/
+input,select{
+-webkit-appearance:none;
+        appearance:none;  
+}
+
+/*禁用 select 默认下拉箭头*/
+select::-ms-expand {
+	display: none;
+}
+
+/*禁用 radio 和 checkbox 默认样式*/
+input[type=radio]::-ms-check,
+input[type=checkbox]::-ms-check{
+	display: none;
+}
+
